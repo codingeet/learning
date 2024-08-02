@@ -18,6 +18,13 @@ background-repeat: no-repeat;
 background-size: cover;
 min-height: 800px;
 }
-body {
- background-color: grey;   
+table {
+ width: 50%;
+ margin:10% ; 
+ border: 2px solid black; 
+ padding: 8px;
+}
+table,td ,th {
+border: 1px solid brown;
+border-collapse: collapse;
 }

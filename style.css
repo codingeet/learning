@@ -55,6 +55,7 @@ text-align: justify;
 }
 .container{
    display: flex;
+   flex-direction: column;
 }
 .container div {
    width: 33%;

@@ -43,5 +43,26 @@ text-align: justify;
 }
 .textcenter{
   text-align: center; 
-  
+}
+.first{
+   background-color: aqua;
+}
+.second{
+   background-color: blueviolet;
+}
+.third{
+   background-color: green;
+}
+.container{
+   width:100%;
+  overflow:auto;
+}
+.container div {
+   width:33%;
+   float:left;
+   
+}
+h2,p{
+   padding:8px;
+   text-align: justify ;
 }

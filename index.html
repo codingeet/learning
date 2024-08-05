@@ -10,11 +10,13 @@
 </head>
 
 <body>
-    <p id="demo"></p>
+    <button onclick="applyStyling()">style my heading</button>
     <script>
-        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        function applyStyling() {
+            let el = document.getElementById('demo');
+            el.style.backgroundColor = "yellow";
+        }
     </script>
-
+    <h1 id="demo">I am learning javascript</h1>
 </body>
-
 </html>

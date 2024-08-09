@@ -1,76 +1,31 @@
-.myheading {
-   background-color: blueviolet;
-   text-align: center;
-   padding: 2rem;
-   margin-top: 120px;
-   border: 4px solid black;
-
-}
-
-.myparagraph {
-   text-align: justify;
-   color: brown;
-   background-color: aqua;
-   padding: 3rem;
-   margin-top: 60px;
-   border: 3px solid red;
-   background-image: url("https://github.com/maurya20/rrt/blob/master/images/10mm.jpg?raw=true");
-   background-repeat: no-repeat;
-   background-size: cover;
-   min-height: 800px;
-}
-
-table {
-   width: 50%;
-   margin: 10%;
-   border: 2px solid black;
-   padding: 8px;
-}
-
-table,
-td,
-th {
-   border: 1px solid brown;
-   border-collapse: collapse;
-}
-
-.list {
-   margin: 20px;
-}
-
-.center-div {
-   background-color: yellow;
-   height: 300px;
-   width: 300px;
-   margin: auto;
-   border-radius: 15px;
-   border: 2px solid black;
-   padding: 8px;
-   text-align: justify;
-}
-
-.textcenter {
-   text-align: center;
-}
-
-.first {
-   background-color: aqua;
-}
-
-.second {
-   background-color: blueviolet;
-}
-
-.third {
-   background-color: green;
-}
-
-.container {
-   display: grid;
-   grid-template-columns: 20% 30% 50%;
-}
-h2,
-p {
-   padding: 8px;
-   text-align: justify;
-}
+.left {
+   background-color: #2196F3;
+   padding: 20px;
+   float: left;
+   width: 20%; /* The width is 20%, by default */
+ }
+ 
+ .main {
+   background-color: #f1f1f1;
+   padding: 20px;
+   float: left;
+   width: 40%; /* The width is 40%, by default */
+ }
+ 
+ .right {
+   background-color: #04AA6D;
+   padding: 20px;
+   float: left;
+   width: 20%; /* The width is 20%, by default */
+ }
+ .mydiv {
+   background-color: #aa6804;
+   padding: 20px;
+   float: left;
+   width: 20%; /* The width is 20%, by default */
+ }
+ @media  screen and (max-width: 600px) {
+   .left,.main,.right,.mydiv{ 
+     width: 100%; 
+   }
+ }

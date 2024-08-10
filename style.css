@@ -1,31 +1,24 @@
-.left {
-   background-color: #2196F3;
-   padding: 20px;
-   float: left;
-   width: 20%; /* The width is 20%, by default */
- }
- 
- .main {
-   background-color: #f1f1f1;
-   padding: 20px;
-   float: left;
-   width: 40%; /* The width is 40%, by default */
- }
- 
- .right {
-   background-color: #04AA6D;
-   padding: 20px;
-   float: left;
-   width: 20%; /* The width is 20%, by default */
- }
- .mydiv {
-   background-color: #aa6804;
-   padding: 20px;
-   float: left;
-   width: 20%; /* The width is 20%, by default */
- }
- @media  screen and (max-width: 600px) {
-   .left,.main,.right,.mydiv{ 
-     width: 100%; 
-   }
- }
+.myform {
+width:30%;
+margin: auto;
+border: 2px solid grey;
+padding: 16px;
+padding-bottom: 40px;
+border-radius: 16px;
+}
+input {
+width: 100%;
+margin-bottom:16px ;
+height: 32px;
+}
+h1{
+  text-align: center;
+}
+.submitbtn {
+float: right;
+background-color: rgb(97, 97, 241);
+color: aliceblue;
+padding: 8px;
+border-radius:8px ;
+border:none ;
+}

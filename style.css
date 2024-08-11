@@ -28,3 +28,12 @@ h1 {
   border-radius: 8px;
   border: none;
 }
+.resetbu{
+  float: left;
+  background-color: rgb(226, 79, 207);
+  color: rgb(228, 235, 172);
+  padding: 7px;
+  border-radius: 6px;
+  border:none ;
+  
+}

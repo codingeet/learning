@@ -14,13 +14,16 @@
         <h1>Learning different form elements</h1>
         <form class="myform">
             <label for="fname"> first name</label>
-            <input id="fname" type="text" value="Ram" maxlength="4" size="4"/>
+            <input id="fname" type="text" value="Ram" maxlength="4" size="4" />
             <label for="lname"> last name</label>
             <input id="lname" type="text" />
             <label for="age"> Age</label>
-            <input id="age" type="number" />
+            <input id="age" type="number" min="18" max="60" />
             <label for="email"> email</label>
             <input id="email" type="email" />
+            <label for="datemax">Enter a date before 1980-01-01:</label>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
             <button type="submit" class="submitbtn">submit</button>
         </form>
     </div>

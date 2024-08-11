@@ -14,17 +14,26 @@
         <h1>Learning different form elements</h1>
         <form class="myform">
             <label for="fname"> first name</label>
-            <input id="fname" type="text" value="" placeholder="enter your first name here"  />
+            <input id="fname" type="text" value="" placeholder="enter your first name here" />
             <label for="lname"> last name</label>
             <input id="lname" type="text" />
             <label for="age"> Age</label>
-            <input id="age" type="number" step="4"/>
+            <input id="age" type="number" step="4" autofocus />
             <label for="email"> email</label>
             <input id="email" type="email" />
             <label for="datemax">Enter a date before 1980-01-01:</label>
             <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
             <label for="files">Select files:</label>
-            <input type="file" id="files" name="files" multiple >
+            <input type="file" id="files" name="files" multiple>
+            <label for="browser"> choose your browser</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
             <button type="submit" class="submitbtn">submit</button>
             <button type="reset" class="resetbu">reset</button>
         </form>

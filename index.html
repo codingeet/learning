@@ -8,29 +8,15 @@
     <title>Home</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-
 <body>
     <div class="wrapper">
-        <h1>Learning different form elements</h1>
-        <form class="myform" id="myform">
-            <label for="fname"> first name</label>
-            <input id="fname" type="text" value="" placeholder="enter your first name here" />
-            <label for="lname"> last name</label>
-            <input id="lname" type="text" />
-            <label for="age"> Age</label>
-            <input id="age" type="number" step="4" autofocus />
-            <label for="email"> email</label>
-            <input id="email" type="email" autocomplete="off" />
-            <input type="color" value="#A020F0" id="color" onchange="changebg()" />
-            <input type="submit" class="submitbtn" />
-        </form>
+        <canvas id="myCanvas" width="500" height="200"></canvas>
     </div>
     <script>
-        function changebg() {
-            let myform = document.getElementById("myform");
-            let colorinput = document.getElementById("color").value;
-            myform.style.backgroundColor = colorinput;
-        }
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("Hello World", 200, 100);
     </script>
 </body>
 </html>

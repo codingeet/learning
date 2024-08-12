@@ -1,39 +1,5 @@
-.myform {
-  width: 30%;
-  margin: auto;
-  border: 2px solid grey;
-  padding: 16px;
-  padding-bottom: 40px;
-  border-radius: 16px;
-  background-color: rgb(226, 225, 128);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-}
 
-input {
-  width: 100%;
-  margin-bottom: 16px;
-  height: 32px;
-}
-
-h1 {
-  text-align: center;
-}
-
-.submitbtn {
-  float: right;
-  background-color: rgb(97, 97, 241);
-  color: aliceblue;
-  padding: 8px;
-  border-radius: 8px;
-  border: none;
-}
-.resetbu{
-  float: left;
-  background-color: rgb(226, 79, 207);
-  color: rgb(228, 235, 172);
-  padding: 7px;
-  border-radius: 6px;
-  border:none ;
-  
-}
+  #myCanvas {
+    border: 2px solid black;
+  }

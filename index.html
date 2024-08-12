@@ -10,13 +10,17 @@
 </head>
 <body>
     <div class="wrapper">
-        <canvas id="myCanvas" width="500" height="200"></canvas>
+        <img  src="/images/form-ss.JPG" id="img"/>
+        <canvas id="myCanvas" width="500" height="790"></canvas>
     </div>
+    <button onclick="drawImage()"> draw image</button>
     <script>
+        function drawImage(){
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
-        ctx.font = "30px Arial";
-        ctx.strokeText("Hello World", 200, 100);
+       var img = document.getElementById("img");
+       ctx.drawImage(img,10,10);
+        }
     </script>
 </body>
 </html>

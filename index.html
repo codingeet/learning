@@ -8,19 +8,13 @@
     <title>Home</title>
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <div class="wrapper">
-        <img  src="/images/form-ss.JPG" id="img"/>
-        <canvas id="myCanvas" width="500" height="790"></canvas>
+        <svg width="400" height="400">
+            <circle cx="150" cy="150" r="100" stroke="blue" stroke-width="10" fill="green" />
+        </svg>
     </div>
-    <button onclick="drawImage()"> draw image</button>
-    <script>
-        function drawImage(){
-        var c = document.getElementById("myCanvas");
-        var ctx = c.getContext("2d");
-       var img = document.getElementById("img");
-       ctx.drawImage(img,10,10);
-        }
-    </script>
 </body>
+
 </html>

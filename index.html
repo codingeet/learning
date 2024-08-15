@@ -7,19 +7,29 @@
     <link rel="icon" type="image" href="/images/fav.ico">
     <title>Home</title>
     <link rel="stylesheet" href="/style.css">
+    <script>
+      function allowDrop(ev) {
+        ev.preventDefault();
+      }
+      
+      function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+      }
+      
+      function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+      }
+      </script>
 </head>
-<body>
-    <audio controls>
-        <source src="https://cdn.pixabay.com/audio/2024/07/30/audio_09a1a55404.mp3" type="audio/mp3">
-        
-      Your browser does not support the audio tag.
-      </audio>
-      <audio controls>
-        <source src="/media/joy.mp3" type="audio/mp3">
-      Your browser does not support the audio tag.
-      </audio>
-      <iframe width="600" height="400" src="https://www.youtube.com/embed/8ppBHEiFgwA">
-    </iframe>
-    
+<body> 
+  <p>Drag the W3Schools image into the rectangle:</p>
+
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <br>
+  <img id="drag1" src="/images/desert.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+  <br>
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 </body>
 </html>

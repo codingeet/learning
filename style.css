@@ -1,8 +1,8 @@
+#div1,#div2 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
 
-
-  #myCanvas {
-    border: 2px solid black;
-  }
-  #img {
-    display: none;
-  }
+ 

@@ -2,24 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image" href="/images/fav.ico">
-    <title>Home</title>
-    <link rel="stylesheet" href="/style.css">
-    <script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image" href="/images/fav.ico">
+  <title>Home</title>
+  <link rel="stylesheet" href="/style.css">
+  <script>
     localStorage.setItem("name", "peter");
     localStorage.setItem("address", "mohan nagar ghaziabad");
     localStorage.removeItem("adress");
     console.log(localStorage.getItem("name"))
     sessionStorage.setItem("school", "HALSCHOOL");
-      </script>
+  </script>
 </head>
-<body onload='alert("page loaded")'> 
+
+<body >
   <input type="file" accept="image/*" />
-  <button  style="background-color: teal;" onclick="alert('clicked')" disabled>
-click me!
+  <button style="background-color: teal;" onclick="alert('clicked')"
+    title="extra information about this button using tooltip">
+    click me!
   </button>
-  
+
 </body>
+
 </html>

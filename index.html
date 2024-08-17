@@ -8,20 +8,16 @@
   <title>Home</title>
   <link rel="stylesheet" href="/style.css">
   <script>
-    localStorage.setItem("name", "peter");
-    localStorage.setItem("address", "mohan nagar ghaziabad");
-    localStorage.removeItem("adress");
-    console.log(localStorage.getItem("name"))
-    sessionStorage.setItem("school", "HALSCHOOL");
+
   </script>
 </head>
 
-<body >
-  <input type="file" accept="image/*" />
-  <button style="background-color: teal;" onclick="alert('clicked')"
-    title="extra information about this button using tooltip">
-    click me!
+<body>
+  <h1 id="intro"></h1>
+  <button onclick="document.getElementById('intro').innerHTML='content from the javascript';">
+    add content
   </button>
+
 
 </body>
 

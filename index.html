@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +7,15 @@
   <title>Home</title>
   <link rel="stylesheet" href="/style.css">
   <script>
-
+function printMyName(){
+  document.getElementById('intro').innerHTML="jackson";
+}
   </script>
 </head>
-
 <body>
   <h1 id="intro"></h1>
-  <button onclick="document.getElementById('intro').innerHTML='content from the javascript';">
-    add content
+  <button onclick="printMyName()">
+    show my name
   </button>
-
-
 </body>
-
 </html>

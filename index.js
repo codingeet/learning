@@ -1,1 +1,4 @@
-console.log("i am external js");
+let firstname = "john";
+let lastname = "doe";
+let fullname = firstname +" "+ lastname;
+console.log(fullname)

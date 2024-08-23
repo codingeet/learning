@@ -1,2 +1,22 @@
-
+*{
+   font-family:serif;
+}
+body{
+    font-size: 26px;
+}
+#first,#third{
+    color: brown;
+    font-family: cursive;
+}
+.two{
+    color:green ;
+    font-family: sans-serif; 
+}
+.highlight{ 
+    background-color: rgb(221, 111, 179);
+    font-style: italic;
+}
+#first>p{
+    color: rgb(61, 42, 231);
+}
  

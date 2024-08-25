@@ -19,3 +19,6 @@ console.log("this is rem////////", rem);
 console.log(" this is expo<<<<<<",expo);
 console.log("decremental",decrement);
 console.log("incremental",increment);
+5>3 ? "i am true result" : "i am false result";
+
+5<3 ? "i am true result" : "i am false result";
